@@ -23,7 +23,7 @@ You can run this script from the command line by providing the appropriate argum
 
 Example usage:
 
-```python fancaps_downloader.py <Episode URL> --interval 5```
+```python fancaps-dl.py <Episode URL> --interval 5```
 
 
 The above command will collect page links from a specific episode URL and then download only every fifth image from each URL to separate subfolders for each URL under a main folder determined automatically from the URL provided as a positional argument.

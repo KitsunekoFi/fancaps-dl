@@ -26,8 +26,22 @@ Example usage:
 ```python fancaps-dl.py <Episode URL> --interval 5```
 
 
+
 The above command will collect page links from a specific episode URL and then download only every fifth image from each URL to separate subfolders for each URL under a main folder determined automatically from the URL provided as a positional argument.
+
+## Limitations
+
+- Currently does not support movies
+- There may still be many bugs
+
+## To-do List
+
+- Add support for movies
+- Add support for zipping downloaded images
+- Add support for renaming downloaded images
+- Add support for multiple Fancaps titles
 
 ## License
 
 This code is licensed under the MIT license.
+
